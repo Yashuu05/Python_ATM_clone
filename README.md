@@ -35,30 +35,37 @@ The GUI is designed using [CustomTkinter](https://github.com/TomSchimansky/Custo
 - ✅ User verification for each task.
 
 ---
+# Application preview
+### Main window
+![](main_window.png)
+---
+### Verification window
+![](verify_window.png)
+---
+### Welcome window
+![](welcome_window.png)
+---
+### withdrawl window
+![](withdraw.png)
+---
 
 ## 📁 Project Directory Structure
 
 ```
 ATM/
-|__ .gitignore           # ignores .env file
 ├── atm_main.py          # Main Python script
 ├── README.md            # Project README file
-└── screenshots/         # UI Screenshots
+└── screenshots          # UI Screenshots
 ```
 ---
 
 ## Modules / Libraries used
-| library / Module   |   Purpose          |
-------------------------------------------
-| 1. CustomTkinter   |     GUI            |
-------------------------------------------
-| 2. pymongo         | database  handling |     
-------------------------------------------
-| 3. datetime        | realtime datetime  |
-------------------------------------------
-| 4. Tkinter         | popup Messagebox   |
-------------------------------------------
-| 5. os / dotenv     | get MongoDB URI    |
+1. CustomTkinter 
+2. pymongo
+3. datetime
+4. Tkinter
+5. os
+6. dotenv
 
 ---
 ## Requirements
